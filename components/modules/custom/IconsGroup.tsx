@@ -127,8 +127,8 @@ export default function IconsGroup() {
       <div className="hidden w-auto ms-auto lg:flex">
         <Sheet open={cartModal.isOpen} onOpenChange={cartModal.onOpen}>
           <SheetTrigger>
-            <div className="relative" id="openCart">
-              <span className="absolute rounded-full grid grid-place-content-center -top-2 -right-1 bg-neutral-300 text-base text-blue-500 w-6 h-6">
+          <div className="relative" id="openCart">
+              <span className="absolute rounded-full flex justify-center items-center -top-2 left-1 bg-red-500 text-base text-white w-6 h-6">
                 {cart.cartItems.length}
               </span>
               <FaOpencart className="h-10 w-10" />

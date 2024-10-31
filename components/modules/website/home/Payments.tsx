@@ -62,7 +62,7 @@ export default function Payments() {
               <Headset className="h6 w-6 text-primary-900" />
               <div className="flex flex-col justify-center">
                 <h1 className="uppercase font-bold">24/7</h1>
-                <h2 className="font-normal text-sm">Support every time</h2>
+                <h2 className="font-normal text-sm">Customer support</h2>
               </div>
             </div>
           </SwiperSlide>
@@ -71,7 +71,7 @@ export default function Payments() {
               <CreditCard className="h6 w-6 text-primary-900" />
               <div className="flex flex-col">
                 <h1 className="uppercase font-bold">accept payment</h1>
-                <h2 className="font-normal text-sm">visa, paypal, master</h2>
+                <h2 className="font-normal text-sm capitalize">visa, mobile money, cash</h2>
               </div>
             </div>
           </SwiperSlide>
